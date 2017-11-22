@@ -9,67 +9,81 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="368dp"
-        android:layout_height="218dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="10dp">
+        android:layout_height="214dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:text="@string/offline"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="161dp"
+            android:layout_width="164dp"
             android:layout_height="49dp"
+            android:layout_marginStart="8dp"
             android:text="@string/vsIa"
-            app:layout_constraintTop_toTopOf="@+id/button2"
-            tools:layout_editor_absoluteX="0dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="58dp" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="158dp"
             android:layout_height="51dp"
+            android:layout_marginEnd="8dp"
             android:text="@string/vsOne"
-            tools:layout_editor_absoluteX="208dp"
+            app:layout_constraintEnd_toEndOf="parent"
             tools:layout_editor_absoluteY="58dp" />
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="364dp"
-            android:layout_height="50dp"
+            android:layout_width="354dp"
+            android:layout_height="47dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
             android:text="@string/vsTeams"
-            tools:layout_editor_absoluteX="2dp"
-            tools:layout_editor_absoluteY="139dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="368dp"
-        android:layout_height="245dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="258dp">
+        android:layout_height="193dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="116dp"
             android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:text="@string/online"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="0dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="367dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="8dp"
+            android:layout_width="352dp"
+            android:layout_height="51dp"
             android:text="@string/vsOnline"
-            app:layout_constraintTop_toBottomOf="@+id/textView4"
-            tools:layout_editor_absoluteX="1dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="53dp" />
     </android.support.constraint.ConstraintLayout>
 
 </android.support.constraint.ConstraintLayout>

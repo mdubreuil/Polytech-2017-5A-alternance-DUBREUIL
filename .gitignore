@@ -22,7 +22,14 @@ out/
 # Gradle files
 .gradle
 .gradle/
+gradle/
 build/
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
+build.gradle
+.idea/
 
 # Signing files
 .signing/

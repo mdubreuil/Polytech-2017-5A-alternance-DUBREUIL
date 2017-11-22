@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">QuizzAndroid</string>
+    <string name="title_activity_quizz">QuizzActivity</string>
+    <string name="chien">Chien</string>
+    <string name="chat">Chat</string>
+    <string name="cheval">Cheval</string>
+    <string name="vache">Vache</string>
+    <string name="question">De quel animal est-ce le cri ?</string>
+    <string name="equipe">Equipe :</string>
+    <string name="joueur">Joueur :</string>
+    <string name="vies">Vies :</string>
+    <string name="score">Score :</string>
 </resources>

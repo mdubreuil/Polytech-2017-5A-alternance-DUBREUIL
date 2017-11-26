@@ -1,13 +1,14 @@
 <resources>
-    <string name="app_name">QuizzAndroid</string>
-    <string name="title_activity_quizz">QuizzActivity</string>
-    <string name="chien">Chien</string>
-    <string name="chat">Chat</string>
-    <string name="cheval">Cheval</string>
-    <string name="vache">Vache</string>
-    <string name="question">De quel animal est-ce le cri ?</string>
-    <string name="equipe">Equipe :</string>
-    <string name="joueur">Joueur :</string>
-    <string name="vies">Vies :</string>
-    <string name="score">Score :</string>
+    <string name="app_name">QuizzApp</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="horse">Horse</string>
+    <string name="cow">Cow</string>
+    <string name="value">Value: 5 pts</string>
+    <string name="question">Which animal is it ?</string>
+    <string name="play">Play</string>
+    <string name="team">Team: B</string>
+    <string name="player">Player: Mel</string>
+    <string name="life">Life(s): 3</string>
+    <string name="score">Score: 18</string>
 </resources>

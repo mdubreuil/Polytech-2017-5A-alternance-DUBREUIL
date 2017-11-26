@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cat">Chat</string>
+    <string name="dog">Chien</string>
+    <string name="horse">Cheval</string>
+    <string name="cow">Vache</string>
+    <string name="value">Valeur: 5pts</string>
+    <string name="question">De quel animal est-ce le cri ?</string>
+    <string name="play">Ecouter</string>
+    <string name="team">Equipe: B</string>
+    <string name="player">Joueur: Mel</string>
+    <string name="life">Vie(s): 3</string>
+    <string name="score">Score: 18</string>
+</resources>

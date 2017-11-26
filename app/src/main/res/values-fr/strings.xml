@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QuizzAndroid</string>
+    <string name="app_name">QuizzApp</string>
     <string name="offline">Hors ligne :</string>
-    <string name="online">En ligne :</string>
-    <string name="vsIa">1 vs Ordinateur</string>
+    <string name="vsIA">1 vs IA</string>
     <string name="vsOne">1 vs 1</string>
     <string name="vsTeams">Equipe A vs Equipe B</string>
-    <string name="vsOnline">1 vs 1 En ligne</string>
+    <string name="online">En ligne :</string>
+    <string name="vsOneOneline">1 vs  1 Online</string>
 </resources>

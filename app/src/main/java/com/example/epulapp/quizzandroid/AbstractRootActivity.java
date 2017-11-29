@@ -33,7 +33,7 @@ public class AbstractRootActivity extends AppCompatActivity implements menuFragm
         }
     }
 
-    public void changeFragment(Fragment frag, boolean isReplace){
+    protected void changeFragment(Fragment frag, boolean isReplace){
         FragmentTransaction fragmentTransaction= fragmentManager.beginTransaction();
         if(isReplace){
             fragmentTransaction.replace(R.id.fragment_container, frag);

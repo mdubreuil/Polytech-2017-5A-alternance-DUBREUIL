@@ -52,6 +52,7 @@ public class AbstractRootActivity extends AppCompatActivity implements menuFragm
         } else {
             fragmentTransaction.add(R.id.fragment_container, frag);
         }
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 }
